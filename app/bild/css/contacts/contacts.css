@@ -1,0 +1,39 @@
+.contacts {
+  position: relative;
+}
+
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 114px 0 123px 0;
+}
+
+.contacts__title {
+  font-family: "gilroy-bold";
+  font-size: 34px;
+  line-height: 42px;
+  margin: 0 0 20px 0;
+}
+
+.contacts__subtitle {
+  font-family: "gilroy-medium";
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 29px 0;
+  text-align: center;
+}
+
+.contacts__button {
+  display: flex;
+  padding: 20px;
+  border: none;
+  border-radius: 5%;
+  background: #070707;
+  color: #FFFFFF;
+  font-family: "gilroy-bold";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}

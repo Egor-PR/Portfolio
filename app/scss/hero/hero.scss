@@ -1,0 +1,45 @@
+.hero {
+    position: relative;
+    margin: 0 0 104px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  72px 0 0 0;
+}
+
+.hero__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 49px 0;
+}
+
+.hero__block-title {
+    font-family: 'gilroy-bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    margin-right: 225px;
+}
+
+.hero__block-bio {
+    font-family: "gilroy-medium";
+    font-size: 15px;
+    line-height: 22px;
+    margin-right: 300px;
+}
+
+.hero__block-lang {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    font-family: "gilroy-bold";
+    transform: rotate(-90deg);
+}
+
+.lang__color {
+    color: black;
+
+}

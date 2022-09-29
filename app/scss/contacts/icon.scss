@@ -1,0 +1,15 @@
+.icon__list {
+    display: flex;
+    flex-direction: row;
+  padding: 79px 0 0 0;
+}
+.icon__item{
+      margin: 0 61px 0 0;
+      &:nth-child(1){
+        font-family: 'gilroy-bold';
+        font-size: 15px;
+        border: 3px solid black;
+        padding: 10px 13px;
+        border-radius: 15px;
+      }
+}

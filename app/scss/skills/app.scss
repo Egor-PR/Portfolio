@@ -1,0 +1,64 @@
+.app__text { 
+    font-family: 'gilroy-bold';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.app__pic-ps {
+    margin: 0 0 27px 0;
+    background: #0C0824;
+}
+
+.app__pic-ai {
+    margin: 0 0 27px 0;
+    background: #1C0A00;
+}
+
+.app__pic-ae {
+    margin: 0 0 27px 0;
+    background: #12002C;
+}
+
+.app__pic-fi {
+    margin: 0 0 27px 0;
+}
+
+.app__raiting-block {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.app__raiting-block span {
+    padding: 0;
+    font-size: 32px;
+    margin: 0 3px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+}
+
+.app__raiting-block>span:before {
+    content: '★';
+}
+
+.app__raiting-block>span.app__raiting-ps {
+    color: #070707;
+    border-radius: 1px;
+}
+
+.app__raiting-block>span.app__raiting-ae {
+    color: #070707;
+    border-radius: 1px;
+}
+
+.app__raiting-block>span.app__raiting-ai {
+    color: #070707;
+    border-radius: 1px;
+}
+
+.app__raiting-block>span.app__raiting-fi {
+    color: #070707;
+    border-radius: 1px;
+}

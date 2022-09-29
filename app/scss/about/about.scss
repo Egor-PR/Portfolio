@@ -1,0 +1,30 @@
+.about {
+    position: relative;
+    background-color: #F6F6F6;
+    padding: 0 0 70px 0;
+}
+
+.about__content {
+
+}
+
+.about__content-block {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+
+.about__content-title {
+    text-align: center;
+    padding: 120px 0 17px 0;
+    font-family: 'gilroy-bold';
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.about__content-text {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "gilroy-medium";
+    margin: 0 0 40px 0;
+}
