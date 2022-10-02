@@ -29,3 +29,9 @@
 .content__block-photo{
 padding:  99px 0 44px 0;
 }
+@media screen and (max-width:790px) {
+    .content__block-photo{
+        width: 100%;
+    }
+    
+}

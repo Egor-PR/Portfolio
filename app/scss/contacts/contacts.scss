@@ -25,10 +25,11 @@
     text-align: center;
 }
 
-.contacts__button {display: flex;
-    padding: 20px ;
+.contacts__button {
+    display: flex;
+    padding: 20px;
     border: none;
-    
+
     border-radius: 5%;
     background: #070707;
     color: #FFFFFF;
@@ -36,4 +37,20 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+}
+
+@media screen and (max-width:790px) {
+    .contacts__button{
+        padding: 5px 130px;
+        border-radius: 0%;
+        
+    }
+}
+.contacts__text {
+    margin: 45px 0 0 0;
+    text-align: center;
+    font-family: 'gilroy-medium';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
 }

@@ -25,6 +25,15 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 790px) {
+  .skills__content-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .content__block-app {
+    margin: 0;
+  }
+}
 .content__block-app {
   display: flex;
   flex-direction: column;
@@ -34,4 +43,13 @@
 }
 .content__block-app:last-child {
   margin: 0%;
+}
+
+@media screen and (max-width: 790px) {
+  .content__block-app {
+    margin: 81px 0 0 0;
+  }
+  .content__block-app:last-child {
+    margin: 81px 0 0 0;
+  }
 }

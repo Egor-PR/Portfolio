@@ -43,3 +43,12 @@
         transition: 0.5s;
     }
 }
+
+@media screen and (max-width:990px) {
+    .menu__link {
+      display: none;
+    }
+    .menu{
+        display: none;
+    }
+  }
