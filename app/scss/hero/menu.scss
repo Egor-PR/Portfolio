@@ -1,6 +1,6 @@
 .menu {
     position: relative;
-   
+
 
     &:after {
         content: "";
@@ -19,8 +19,8 @@
 .menu__list {
     display: flex;
     align-items: center;
-   
-    
+
+
 }
 
 .menu__item {
@@ -46,9 +46,69 @@
 
 @media screen and (max-width:990px) {
     .menu__link {
-      display: none;
-    }
-    .menu{
         display: none;
     }
-  }
+
+    .menu {
+        display: none;
+    }
+
+    .menu:after {
+        display: none;
+    }
+
+    .header__menu.show-menu:before {
+        transform: rotate(45deg) scale(1);
+        top: 6px;
+        background-color: #000000;
+        transition: 0.5s;
+    }
+
+    .header__menu.show-menu:after {
+        transform: rotate(-45deg) scale(1);
+        top: 6px;
+        background-color: #000000;
+        transition: 0.5s;
+    }
+
+    .header__menu.show-menu span {
+        transform: scale(0);
+    }
+
+    .show-menu {
+        display: none;
+
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .show-menu {
+        display: flex;
+        position: relative;
+        flex-direction: row-reverse;
+        
+    }
+
+    .show-menu .menu__link {
+        display: block;
+        font-size: 20px;
+        line-height: 33px;
+
+    }
+
+    .show-menu .menu__list {
+        //position: absolute;
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+}
+@media screen and (max-width:468px){
+.show-menu .menu__list{
+    display: block;
+}
+}
