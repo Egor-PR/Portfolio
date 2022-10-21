@@ -67,9 +67,7 @@
 }
 @media screen and (max-width: 768px) {
   .show-menu {
-    display: flex;
-    position: relative;
-    flex-direction: row-reverse;
+    display: block;
   }
   .show-menu .menu__link {
     display: block;
@@ -82,9 +80,10 @@
     flex-direction: column;
     align-items: flex-start;
   }
-}
-@media screen and (max-width: 468px) {
-  .show-menu .menu__list {
-    display: block;
+  .show-menu .hero__block-title {
+    display: none;
+  }
+  .show-menu .hero__block-bio {
+    display: none;
   }
 }

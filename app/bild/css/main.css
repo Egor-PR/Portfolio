@@ -138,7 +138,6 @@ a {
 
 @media screen and (max-width: 790px) {
   .header {
-    position: absolute;
     left: 80%;
     top: 7%;
   }
@@ -148,7 +147,7 @@ a {
     position: absolute;
     width: 100%;
     height: 2px;
-    left: 10px;
+    left: 150px;
     top: 6px;
     transition: 0.5s;
   }
@@ -165,6 +164,7 @@ a {
     position: absolute;
     width: 100%;
     height: 2px;
+    left: 150px;
     bottom: 1px;
     transition: 0.5s;
   }
@@ -174,6 +174,7 @@ a {
     position: absolute;
     width: 100%;
     height: 2px;
+    left: 150px;
     top: 1px;
     transition: 0.5s;
   }
@@ -261,9 +262,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .show-menu {
-    display: flex;
-    position: relative;
-    flex-direction: row-reverse;
+    display: block;
   }
   .show-menu .menu__link {
     display: block;
@@ -276,10 +275,11 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
-}
-@media screen and (max-width: 468px) {
-  .show-menu .menu__list {
-    display: block;
+  .show-menu .hero__block-title {
+    display: none;
+  }
+  .show-menu .hero__block-bio {
+    display: none;
   }
 }
 .about {
